@@ -3,7 +3,7 @@ const JSEncrypt = require('node-jsencrypt')
 const { sm2 } = require('sm-crypto')
 
 /**
- * public key，用于普通加密
+ * public key
  * @returns {String}
  */
 exports.getPublicKey = async function () {
@@ -18,8 +18,8 @@ exports.getPublicKey = async function () {
 
 /**
  * 普通加密
- * @param {String} plainText 需要加密的信息
- * @param {String} publicKey 公钥
+ * @param {String} plainText
+ * @param {String} publicKey
  * @returns 
  */
 exports.encryptNormal = function (plainText, publicKey) {
@@ -34,8 +34,8 @@ exports.encryptNormal = function (plainText, publicKey) {
 
 /**
  * 国密加密
- * @param {String} plainText 需要加密的信息
- * @param {String} publicKey 公钥
+ * @param {String} plainText
+ * @param {String} publicKey
  * @returns {String}
  */
 exports.encryptSM2 = function (plainText, publicKey) {

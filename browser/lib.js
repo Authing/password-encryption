@@ -3,7 +3,7 @@ import JSEncrypt from 'jsencrypt'
 import { sm2 } from 'sm-crypto'
 
 /**
- * public key，用于普通加密
+ * public key
  * @returns {String}
  */
 export async function getPublicKey () {
@@ -18,8 +18,8 @@ export async function getPublicKey () {
 
 /**
  * 普通加密
- * @param {String} plainText 需要加密的信息
- * @param {String} publicKey 公钥
+ * @param {String} plainText
+ * @param {String} publicKey
  * @returns 
  */
 export function encryptNormal (plainText, publicKey) {
@@ -34,8 +34,8 @@ export function encryptNormal (plainText, publicKey) {
 
 /**
  * 国密加密
- * @param {String} plainText 需要加密的信息
- * @param {String} publicKey 公钥
+ * @param {String} plainText
+ * @param {String} publicKey
  * @returns {String}
  */
 export function encryptSM2 (plainText, publicKey) {
