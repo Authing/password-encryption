@@ -1,0 +1,32 @@
+{
+  "name": "password-encryption-demo",
+  "version": "1.0.0",
+  "description": "Password encryption demo",
+  "scripts": {
+    "build:browser": "webpack --config ./browser/webpack.config.js",
+    "start:browser": "NODE_ENV=dev webpack-dev-server --progress --color --config ./browser/webpack.config.js",
+    "start:node": "node node/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Authing/password-encryption-demo.git"
+  },
+  "author": "https://github.com/Authing",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Authing/password-encryption-demo/issues"
+  },
+  "homepage": "https://github.com/Authing/password-encryption-demo#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "jsencrypt": "^3.2.1",
+    "node-jsencrypt": "^1.0.0",
+    "sm-crypto": "^0.3.8"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.9.2"
+  }
+}
