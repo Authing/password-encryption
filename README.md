@@ -1,4 +1,4 @@
-# Password encryption demo
+# Password encryption
 
 Authing provides two encryption methods: `jsencrypt` and `sm-crypto`
 
