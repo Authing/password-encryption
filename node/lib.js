@@ -17,7 +17,6 @@ exports.getPublicKey = async function () {
 }
 
 /**
- * 普通加密
  * @param {String} plainText
  * @param {String} publicKey
  * @returns 
@@ -33,7 +32,6 @@ exports.encryptNormal = function (plainText, publicKey) {
 }
 
 /**
- * 国密加密
  * @param {String} plainText
  * @param {String} publicKey
  * @returns {String}
