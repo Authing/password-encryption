@@ -6,14 +6,6 @@
 
 <br />
 
-Authing provides two encryption methods: `jsencrypt` and `sm-crypto`
-
-- `jsencrypt`: general encryption for browser, https://www.npmjs.com/package/jsencrypt
-- `node-jsencrypt`: gengeral encryption for Node.js, https://www.npmjs.com/package/node-jsencrypt
-- `sm-crypto`: https://www.npmjs.com/package/sm-crypto
-
-<br />
-
 <div>
   <a href="https://forum.authing.cn/" target="_blank">
     <img src="https://img.shields.io/badge/chat-forum-blue" />
@@ -24,6 +16,12 @@ Authing provides two encryption methods: `jsencrypt` and `sm-crypto`
 </div>
 
 <br />
+
+Authing provides two encryption methods: `jsencrypt` and `sm-crypto`
+
+- `jsencrypt`: general encryption for browser, https://www.npmjs.com/package/jsencrypt
+- `node-jsencrypt`: gengeral encryption for Node.js, https://www.npmjs.com/package/node-jsencrypt
+- `sm-crypto`: https://www.npmjs.com/package/sm-crypto
 
 ### Browser
 
