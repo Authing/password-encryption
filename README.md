@@ -31,6 +31,10 @@ npm run start:node
 - [use in browser](./browser/lib.js)
 - [use in node.js](./node/lib.js)
 
+## Questions
+
+For questions and support please use the [official forum](https://forum.authing.cn/). The issue list of this repo is exclusively for bug reports and feature requests.
+
 ## Contribution
 
 - Fork it
