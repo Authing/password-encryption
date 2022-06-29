@@ -19,11 +19,11 @@ export async function getPublicKey () {
 /**
  * @param {String} plainText
  * @param {String} publicKey
- * @returns 
+ * @returns
  */
 export function encryptNormal (plainText, publicKey) {
   const jsencrypt = new JSEncrypt()
-  
+
   jsencrypt.setPublicKey(publicKey)
 
   const encrypted = jsencrypt.encrypt(plainText)
