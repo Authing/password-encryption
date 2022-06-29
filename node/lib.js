@@ -21,7 +21,7 @@ exports.getPublicKey = async function () {
  * @param {String} publicKey
  * @returns 
  */
-exports.encryptNormal = function (plainText, publicKey) {
+exports.encryptNormal = function encryptNormal (plainText, publicKey) {
   const jsencrypt = new JSEncrypt()
   
   jsencrypt.setPublicKey(publicKey)
@@ -36,7 +36,7 @@ exports.encryptNormal = function (plainText, publicKey) {
  * @param {String} publicKey
  * @returns {String}
  */
-exports.encryptSM2 = function (plainText, publicKey) {
+exports.encryptSM2 = function encryptSM2 (plainText, publicKey) {
   const encrypted = sm2.doEncrypt(plainText, publicKey)
 
   if (encrypted) {

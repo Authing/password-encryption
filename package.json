@@ -1,5 +1,5 @@
 {
-  "name": "password-encryption-demo",
+  "name": "password-encryption",
   "version": "1.0.0",
   "description": "Password encryption demo",
   "scripts": {
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Authing/password-encryption-demo.git"
+    "url": "git+https://github.com/Authing/password-encryption.git"
   },
   "author": "https://github.com/Authing",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Authing/password-encryption-demo/issues"
+    "url": "https://github.com/Authing/password-encryption/issues"
   },
-  "homepage": "https://github.com/Authing/password-encryption-demo#readme",
+  "homepage": "https://github.com/Authing/password-encryption#readme",
   "dependencies": {
     "axios": "^0.27.2",
     "jsencrypt": "^3.2.1",

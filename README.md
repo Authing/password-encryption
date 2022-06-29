@@ -1,10 +1,29 @@
 # Password encryption demo
 
+<div>
+  <img width="300" src="https://files.authing.co/authing-console/authing-logo-new-20210924.svg" />
+</div>
+
+<br />
+
 Authing provides two encryption methods: `jsencrypt` and `sm-crypto`
 
 - `jsencrypt`: general encryption for browser, https://www.npmjs.com/package/jsencrypt
 - `node-jsencrypt`: gengeral encryption for Node.js, https://www.npmjs.com/package/node-jsencrypt
 - `sm-crypto`: https://www.npmjs.com/package/sm-crypto
+
+<br />
+
+<div>
+  <a href="https://forum.authing.cn/" target="_blank">
+    <img src="https://img.shields.io/badge/chat-forum-blue" />
+  </a>
+  <a href="https://github.com/Authing/password-encryption" target="_blank">
+    <img src="https://img.shields.io/badge/License-MIT-success" />
+  </a>
+</div>
+
+<br />
 
 ### Browser
 
@@ -42,3 +61,9 @@ npm run start:node
 ## License
 
 MIT
+
+## Links
+
+- [AuthingMove](https://github.com/Authing/AuthingMove)
+- [authingmove-template](https://github.com/Authing/authingmove-template)
+- [eslint-plugin-authing-nestjs](https://github.com/authing/eslint-plugin-authing-nestjs/)
