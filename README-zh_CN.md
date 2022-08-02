@@ -29,17 +29,17 @@ Authing 提供两种加密方式: `jsencrypt` 和 `sm-crypto`
 npm install --save jsencrypt sm-crypto
 ```
 
-### Node.js
+### node.js
 
 ``` shell
 npm install --save node-jsencrypt sm-crypto
 ```
 ## 示例
 ``` shell
-# browser
+# 浏览器
 npm run start:browser
 
-# node
+# node.js
 npm run start:node
 ```
 
