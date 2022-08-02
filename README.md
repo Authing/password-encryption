@@ -1,10 +1,12 @@
 # Password encryption
 
 <div>
-  <img width="300" src="https://files.authing.co/authing-console/authing-logo-new-20210924.svg" />
+  <img width="250" src="https://files.authing.co/authing-console/authing-logo-new-20210924.svg" />
 </div>
 
 <br />
+
+English | [简体中文](https://github.com/Authing/password-encryption/blob/main/README-zh_CN.md) |
 
 <div>
   <a href="https://forum.authing.cn/" target="_blank">
@@ -62,7 +64,9 @@ For questions and support please use the [official forum](https://forum.authing.
 
 ## License
 
-MIT
+[MIT](https://github.com/Authing/password-encryption/blob/main/LICENSE)
+
+Copyright (c) 2022 Authing
 
 ## Links
 
