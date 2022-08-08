@@ -6,7 +6,7 @@
 
 <br />
 
-English | [简体中文](https://github.com/Authing/password-encryption/blob/main/README-zh_CN.md) |
+English | [简体中文](https://github.com/Authing/password-encryption/blob/main/README-zh_CN.md)
 
 <div>
   <a href="https://forum.authing.cn/" target="_blank">
