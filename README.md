@@ -1,14 +1,10 @@
-# Password encryption
-
-<div>
+<div align=center>
   <img width="250" src="https://files.authing.co/authing-console/authing-logo-new-20210924.svg" />
 </div>
 
 <br />
 
-English | [简体中文](https://github.com/Authing/password-encryption/blob/main/README-zh_CN.md)
-
-<div>
+<div align=center>
   <a href="https://forum.authing.cn/" target="_blank">
     <img src="https://img.shields.io/badge/chat-forum-blue" />
   </a>
@@ -18,6 +14,8 @@ English | [简体中文](https://github.com/Authing/password-encryption/blob/mai
 </div>
 
 <br />
+
+English | [简体中文](https://github.com/Authing/password-encryption/blob/main/README-zh_CN.md)
 
 Authing provides two encryption methods: `jsencrypt` and `sm-crypto`
 
